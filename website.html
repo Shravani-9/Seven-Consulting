@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="website.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Website </title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <img src="logo.png" class="logo-img" alt="icon">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Services
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Aticles</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="tel:87664564646">
+                                <i class="bi bi-telephone-fill custom-icon"></i>
+                                "1-001-231-562"
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link shadow cart-icon-link" href="#">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </a> 
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="bg">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="img-header-text pt-5">
+                    <div class="main-header">
+                        <h1>Need a professional business consultation? Look no further. We are here to help!</h1>
+                    </div>
+                    <div class="header-context">
+                        <p class="pt-4">We offer a professional advice, guidance and actionable solutions to businesses experiencing issues they can’t deal with in-house.</p>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-5">
+                            <button type="button" class="Gbutton" id="button">
+                                <a href="#">Get free consultaion</a>
+                            </button>
+                        </div>
+                        <div class="col-5">
+                            <div class="shop-now">
+                                <a href="#"id="button-left">Shop online guides
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="img-header-img image-stack">
+                    <div class="pic1"></div>  
+                    <div class="pic2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="divitions pt-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="img-header-bottom d-flex flex-row">
+                        <i class="fa-regular fa-id-card"  style="color:gold;font-size: 30px;"></i>
+                    <p class="ps-4">A team of leading industry experts</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="img-header-bottom d-flex flex-row">
+                    <i class="bi bi-grid-3x2-gap-fill" style="color:gold;font-size: 30px;"></i> 
+                    <p class="ps-4">Full range of consulting services</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="img-header-bottom d-flex flex-row">
+                        <i class="fa-regular fa-handshake " style="color:gold;font-size: 30px;"></i> 
+                    <p class="ps-4">Extensive online consulting guides</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="img-header-bottom d-flex flex-row">
+                        <i class="fa-regular fa-comments"  style="color:gold;font-size: 30px;"></i> 
+                    <p class="ps-4">100% free first consultation for all new client</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page2">
+       <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 ">               
+                <h4 class="content1 text-muted">Welcome to seven consulting</h4>               
+                <h2 class="pt-3 pb-3">Risk more than others think is safe.<br>Dream more than others think is <br>practical.</h2>                
+                <button type="button" class="btn btn-warning">Let's discuss your case</button>               
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="banner-con">
+                    |
+                    <span>why choose us</span>
+                    |
+                    <span class="text-muted"> our principles</span>
+                    |
+                    <span class="text-muted">achivements</span>
+                    |
+                </div>
+                <p class="p-3 text-muted" style="font-size: 20px;">Aliquam erat volutpat. Donec placerat metus erat, conubia nostra per inceptos himenaeosnec vulputate nulla iaculis eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra,per inceptos himenaeos. In vel varius esteu! Suspendisse nec vulputate nulla iaculis eupotenti.<br>
+                Sed sagittis maximus quam,nec laoreet enim laoreet sed lorem ipsum placerat metus erat, nec vulputate nulla iaculis eu. Class aptent sociosqu ad litora torquent per conubia.</p>
+            </div>
+        </div>
+       </div>
+       
+</section>
+<section class="page3">
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 ">
+                        <div class="small-box shadow" >
+                            <i class="fa-solid fa-chart-line"></i>
+                            <a class="pt-1" href="#" style="text-decoration:none;font-size:20px;">Business development</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="small-box shadow">
+                        <i class="bi bi-gear-fill"></i>
+                            <a href="#" style="text-decoration:none;font-size:20px;">Business optimisation</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="small-box shadow">
+                            <i class="bi bi-pie-chart-fill"></i>
+                            <a href="#" style="text-decoration:none;font-size:20px;">Marketing Planning</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 ">
+                        <div class="small-box shadow">
+                            <i class="fa-sharp fa-solid fa-chess-knight"></i>
+                            <a href="#" style="text-decoration:none;font-size:20px;">Brand & srategy</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 ">
+                        <div class="small-box shadow">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <a href="#" style="text-decoration:none;font-size:20px;">Human resources</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="small-box shadow">
+                            <i class="bi bi-calculator-fill"></i>
+                            <a href="#" style="text-decoration:none;font-size:20px;">System analytics</a>
+                        </div>
+                    </div>
+                </div>   
+            </div>                              
+</section>
+<section class="page4">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <h1>Need a proffesional business consultation<br>Let's discuss your case!</h1>
+                </div>
+                <div class="Contact-btn">
+                    
+                    <button class=" btn-warning ps-5 pe-5 pt-3 pb-3 me-3 rounded">Contact us online</button>
+                    <a href="tel:857746749" class="phno ps-5 pe-5 pt-3 pb-3 rounded">
+                        <i class="bi bi-telephone-fill"></i>
+                        <span>88989921897</span>
+                    </a>
+                    
+                </div>                                   
+            </div>
+        </div>
+</section>
+<section class="page5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="head text-muted">
+                        <h3>High level of competence</h3>
+                    </div>
+                    <h1 class="pt-4">our experirnce will help you create a quality product</h1>
+                    <div class="head text-muted pt-4" style="font-size: 20px;">
+                        <p>Aliquam erat volutpat. Donce placerat metus erat, nec vulputate nulla iaculis ey. Suspendisse potenti. Sed sagiti maximum quam,nec laoreet enim laoreet sed lorem ipsum vulputate nulla iacullis. Suspendisse euismod felis nun, vitae aliguet lectus ornare.</p>
+                    </div>
+                 </div>
+            <div class="col-12 col-md-6 col-lg-6 ps-5">
+                <h4 class="mt-5">Online services</h4>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <span class="progess" style="color: black;font-size: 15px;">3 years</span></div>
+                  </div>
+                  <h4 class="mt-5">Finance management</h4>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <span class="progess" style="color: black;font-size: 15px;">5 years</span></div>
+                  </div>
+                  <h4 class="mt-5">Investment</h4>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <span class="progess" style="color: black;font-size: 15px;">10 years</span></div>
+                  </div>
+                  <h4 class="mt-5">Consulting</h4>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <span class="progess" style="color: black;font-size: 15px;">12 years</span></div>
+                  </div>
+                
+            </div> 
+
+</section>
+<section class="page6">
+        <div class="container pt-5 pb-5">
+            <div class="row pt-5 pb-5">
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="index">
+                        <h1 class="text-muted" id="number">01.</h1>
+                        <div class="index2 ps-5 pt-4">
+                            <h4>Experienced spacialists</h4>
+                            <p>
+                                <span class="head text-muted ">Quisque in suscipit nisi, at auctor orci.Sed posuere ullamcorper molestie.Suspendisee euismod felis nunc,vitae aliquet lectus ornare.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 ">
+                    <div class="index">
+                        <h1 class="text-muted" id="number">02.</h1>
+                        <div class="index2 ps-5 pt-4">
+                            <h4>Stable $ Predictable Results</h4>
+                            <p>
+                                <span class="head text-muted">Mauris eu ex nec felis sagittis efficitur. Suspendisse euismod felis nunc,vitae aliquet lectus ornare ac. Sed posuere ullamcorper molestie.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="index">
+                        <h1 class="text-muted" id="number">03.</h1>
+                        <div class="index2 ps-5 pt-4">
+                            <h4>100% Satisfaction garantee</h4>
+                            <p>
+                                <span class="head text-muted">Mauris eu ex nec felis sagitts efficitur in suscipit nis posuere ullamcorper molestie. Suspendisee euismod</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="index">
+                        <h1 class="text-muted" id="number">04.</h1>
+                        <div class="index2 ps-5 pt-4">
+                            <h4>200+ Years in consulting business</h4>
+                            <p>
+                                <span class="head text-muted">Sed posuere ullamcorper molestie.Suspendisse euismod felis nunc,vitae aliquet lectus ornare ac.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</section>
+<section class="questions">
+        <h1 id="ask">Any questions? Request a call-back to get a<br>
+            free analysis for your business!</h1>
+            <div class="form">
+            <form action="/action_page.php">
+      
+                <input type="text" id="fname" name="fname" placeholder="Enter your name" >
+                
+                <input type="text" id="lname" name="lname" placeholder="Phone number">
+                
+              </form>
+            <div class="button">
+                <button class="Rbutton">
+                    <i class="fa-solid fa-phone"></i><span class="ps-2">Request a call-back</span>
+                     
+            </div>
+            </div>
+</section>
+<section class="page7">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="video text-muted"><h4 id="video">why choose our company</h4>
+                    <h3 class="pt-3" style="color: black;">Here how things are going to change for your business</h3>
+                    <h5 class="pt-3"><i class="bi bi-check-lg"></i><span class="ps-2" id="video-content">150-180% more Lorem volutpat donec glavrida ipsum dolor</span></h5>
+                    <h5><i class="bi bi-check-lg"></i><span class="ps-2" id="video-content">Reactive volutpat donec glavrida ipsum</span></h5>
+                    <h5><i class="bi bi-check-lg"></i><span class="ps-2" id="video-content">Class aptent taciti soclosqu ad litora</span></h5>
+                    <h5><i class="bi bi-check-lg"></i><span class="ps-2" id="video-content">100-200% of dolar nulla gravida et nulla</span></h5>
+                    <h5><i class="bi bi-check-lg"></i><span class="ps-2" id="video-content">Amet lorem felis-dolar nulla gravida et nulla gravida</span></h5>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-qfEOE4vtxE?si=eWQtwb2jendk_RMK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100"></iframe>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="page8">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="quote rounded">
+                        <i class="fa-solid fa-quote-right quote-icon"></i>
+                        <h5 class="Wow text-muted pt-3">Wow! Commodo egestas, feugiat leo eget ipsum dolor sitvulputate metus vestibulum ipsum.</h5>
+                        <br>
+                        <h4 style="color: black">Bernald Backwood</h4>
+                        <p class="seven text-muted">Seven & co-marketing director</p>
+                        
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="quote rounded">
+                        <i class="fa-solid fa-quote-right quote-icon"></i>
+                        <h5 class="Super text-muted pt-3">Super! 300%+ lorem neque mauris et leo ipsum ulvinar lorem neque Thanks</neque></h5>
+                        <br>
+                        <h4 class="pt-3" styles="color: black">John Riechmand</h4>
+                        <p class="Seven text-muted">Seven consulting executive director</p>
+                        
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="quote rounded">
+                        <i class="fa-solid fa-quote-right quote-icon"></i>
+                        <h5 class="text-muted pt-3">Lorem metus vestibulum ipsum dolor sit amet, consectetur adipiscing elit odio nec urna metus vestibulum.</h5>
+                        <br>
+                        <h4 style="color: black ">Alexander Brown</h4>
+                        <p class=" seven text-muted">Seven creative-marketing director</p>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</section> 
+<footer class="footer">
+    <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div>
+                        <h1 class="seven pt-3">Seven</h1>
+                        <p class="pb-5" style="font-size: 30px;">consulting</p>
+                    </div>
+                    
+                    <br>
+                    <h5 class="pt-5">We exist to empwer people to delier<br>
+                    ridisculously good innovation to the world's best companies.</h5>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 ps-5">
+
+                    <h4 style="text-decoration: underline gold;">Contact info</h4>
+                    <br><i class="bi bi-telephone-fill"></i>
+                    <span  style="font-size: large; margin-left: 10px;">1-001-234-45678</span>
+                    <br>
+                    <span class="text-muted" style="font-size: 15px; padding-left: 30px;">Mon-Sat:8:00-21:00</span>
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span style="font-size: large; margin-left: 10px;">info@dream-theme.com</span>
+                    <br>
+                    <span class="text-muted" style="font-size: 15px; padding-left: 30px;">24/7 customer support</span>
+                    <br>
+                    <br>
+                    <i class="fa-regular fa-building"></i>
+                    <span style="font-size: large; margin-left: 10px;">3 Rockaway St,new Rochell,Ny 1080
+                    </span>
+                    <br>
+                    <span class="text-muted" style="font-size: 15px; padding-left: 30px;">Main office location</span>
+                    
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <h4 style="text-decoration: underline gold;">Recent article</h4><br>
+                    <span style="font-size: large;">How to find your ideal business advisor</span>
+                    <br>
+                    <span class="text-muted" style="font-size: 15px;">March 4,2020</span>
+                    <br>
+                    <br>
+                    <span style="font-size: large;">Main business consultin trends 21/22</span>
+                    <br>
+                    <span class="text-muted" style="font-size: 15px;">February 5,2020</span>
+                    <br>
+                    <br>
+                    <span style="font-size: large;">How to find your ideal business advisor</span>
+                    <br>
+                    <span class="text-muted" style="font-size: 15px;">February 18,2020</span>
+                    <br>
+                </div>
+            </div>
+            <div class="underline">
+                <hr>
+            </div>
+            <div>
+                <div class="banner-con text-muted">
+                    <p style="font-size: small;"><i class="bi bi-c-circle"></i>7consulting-2022.All right reserved.</p>
+                    |
+                    <a href="#" style="font-size: small; text-decoration: none;color: #919090"> Terms & Conditions</a>
+                    |
+                    <a href="#" style="font-size: small; text-decoration: none;color: #919090">Cookies policy</a>
+                <div class="bottom">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+                    
+            </div>
+        </div>
+</footer>
+            
+    
+
+</body>
+</html>
